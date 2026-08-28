@@ -11,6 +11,11 @@ A training-free cognitive reasoning framework for video anomaly detection using 
 
 **Paper:** [arXiv:2310.02835](https://arxiv.org/abs/2310.02835) | [OpenReview](https://openreview.net/forum?id=QcuSMNG7J8)
 
+<p align="center">
+  <img src="assets/model.png" alt="Cog-VADU Model Architecture" width="95%">
+</p>
+
+
 ### Abstract
 
 Video Anomaly Detection (VAD) aims to temporally localize abnormal events in videos. Most existing approaches rely on dataset-specific training and curated annotations, limiting generalization in open-set scenarios. Recent zero-shot methods based on Large Vision-Language Models (LVLMs) alleviate this dependency but often lack temporal continuity and structured reasoning.
