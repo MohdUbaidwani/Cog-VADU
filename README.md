@@ -1,18 +1,25 @@
-# Cog-VADU-A-Training-Free-Cognitive-Reasoning-Framework-for-Video-Anomaly-Detection-and-Understanding
+# Cog-VADU: A Training-Free Cognitive Reasoning Framework for Video Anomaly Detection and Understanding
 
 A training-free cognitive reasoning framework for video anomaly detection using multimodal reasoning and cross-modal refinement.
 
----
+[![TMLR Accepted](https://img.shields.io/badge/TMLR-Accepted-4CAF50.svg)](https://openreview.net/forum?id=QcuSMNG7J8)
 
-**paper** arXiv:2310.02835  
-**TMLR** Accepted  
+[**Mohd Ubaid Wani**](https://www.surrey.ac.uk/people/mohd-ubaid-wani), 
+[**Sara Atito**](https://www.surrey.ac.uk/people/sara-atito), 
+[**Josef Kittler**](https://www.surrey.ac.uk/people/josef-kittler), 
+[**Muhammad Awais**](https://www.surrey.ac.uk/people/muhammad-awais)
 
-Mohd Ubaid Wani, Sara Atito, Josef Kittler, Muhammad Awais  
+**Paper:** [arXiv:2310.02835](https://arxiv.org/abs/2310.02835) | [OpenReview](https://openreview.net/forum?id=QcuSMNG7J8)
 
----
+### Abstract
 
-### Abstract:
-Video Anomaly Detection (VAD) aims to temporally localize abnormal events in videos. Most existing approaches rely on dataset-specific training and curated annotations, limiting generalization in open-set scenarios. Recent zero-shot methods based on Large Vision-Language Models (LVLMs) alleviate this dependency but often lack temporal continuity and structured reasoning. We propose Cog-VADU, a fully training-free framework that reformulates VAD as a sequential cognitive reasoning task. Cog-VADU introduces Chain-of-Anomaly Detection Thought Prompting (CoADTP), which unrolls an LVLM into a recurrent reasoning chain across video segments. By propagating structured rationales over time, the model maintains implicit temporal memory, enabling robust discrimination between complex anomalies and high-motion normal activities. To improve reliability, we further design a cross-modal re-ranking stage that aligns textual rationales with visual embeddings, enforcing semantic consistency and temporal coherence for refined and stable predictions. Extensive experiments on multiple public VAD benchmarks demonstrate that Cog-VADU achieves competitive zero-shot performance. Moreover, cross-model evaluations show that CoADTP consistently enhances reasoning-based anomaly detection in a model-agnostic manner, providing interpretable and generalizable anomaly understanding for real-world applications.
+Video Anomaly Detection (VAD) aims to temporally localize abnormal events in videos. Most existing approaches rely on dataset-specific training and curated annotations, limiting generalization in open-set scenarios. Recent zero-shot methods based on Large Vision-Language Models (LVLMs) alleviate this dependency but often lack temporal continuity and structured reasoning.
+
+We propose **Cog-VADU**, a fully training-free framework that reformulates VAD as a sequential cognitive reasoning task. Cog-VADU introduces Chain-of-Anomaly Detection Thought Prompting (CoADTP), which unrolls an LVLM into a recurrent reasoning chain across video segments. By propagating structured rationales over time, the model maintains implicit temporal memory, enabling robust discrimination between complex anomalies and high-motion normal activities.
+
+To improve reliability, we further design a cross-modal re-ranking stage that aligns textual rationales with visual embeddings, enforcing semantic consistency and temporal coherence for refined and stable predictions.
+
+Extensive experiments on multiple public VAD benchmarks demonstrate that Cog-VADU achieves competitive zero-shot performance. Moreover, cross-model evaluations show that CoADTP consistently enhances reasoning-based anomaly detection in a model-agnostic manner, providing interpretable and generalizable anomaly understanding for real-world applications.
 
 # Setup
 
