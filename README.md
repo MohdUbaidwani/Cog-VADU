@@ -9,7 +9,7 @@ A training-free cognitive reasoning framework for video anomaly detection using 
 [**Josef Kittler**](https://www.surrey.ac.uk/people/josef-kittler), 
 [**Muhammad Awais**](https://www.surrey.ac.uk/people/muhammad-awais)
 
-**Paper:** [arXiv:2310.02835](https://arxiv.org/abs/2310.02835) | [OpenReview](https://openreview.net/forum?id=QcuSMNG7J8)
+**Paper:** [arXiv:2310.02835](https://openreview.net/forum?id=QcuSMNG7J8) | [OpenReview](https://openreview.net/forum?id=QcuSMNG7J8)
 
 <p align="center">
   <img src="assets/model.png" alt="Cog-VADU Model Architecture" width="95%">
