@@ -62,3 +62,7 @@ Create and activate the Conda environment:
 conda create --name cogvadu python=3.11
 conda activate cogvadu
 pip install -r requirements.txt
+```
+#### Acknolwedgement
+We thank [Zanella et al.](https://github.com/lucazanella/lavad), [Zhang et al.] (https://github.com/damo-nlp-sg/videollama3)), for sharing their codes.
+
