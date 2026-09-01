@@ -9,7 +9,7 @@ A training-free cognitive reasoning framework for video anomaly detection using 
 [**Josef Kittler**](https://www.surrey.ac.uk/people/josef-kittler), 
 [**Muhammad Awais**](https://www.surrey.ac.uk/people/muhammad-awais)
 
-**Paper:** [arXiv:2310.02835](https://openreview.net/forum?id=QcuSMNG7J8) | [OpenReview](https://openreview.net/forum?id=QcuSMNG7J8)
+**Paper:** [pdf](https://openreview.net/pdf?id=QcuSMNG7J8) | [OpenReview](https://openreview.net/forum?id=QcuSMNG7J8)
 
 **Video:** [🎥 Watch on YouTube](https://youtu.be/TgRKfJi4X1A)
 <p align="center">
