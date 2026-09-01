@@ -68,3 +68,16 @@ pip install -r requirements.txt
 
 We thank [Zanella et al.](https://github.com/lucazanella/lavad) and [Zhang et al.](https://github.com/damo-nlp-sg/videollama3) for sharing their code.
 
+## Citation
+If you use this code or find our work helpful, please consider citing our paper. Thank you!
+```
+@article{
+wani2026cogvadu,
+title={Cog-{VADU}: A Training-Free Cognitive Reasoning Framework for Video Anomaly Detection and Understanding},
+author={Mohd Ubaid Wani and Sara Atito and Josef Kittler and Muhammad Awais},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=QcuSMNG7J8},
+note={}
+```
